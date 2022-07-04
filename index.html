@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wheather app</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- navbar -->
+    <nav class="navbar navbar-expand-lg mainBgColor position-relative">
+        <div class="container ">
+          <a class="navbar-brand " href="#"><i class="fa-solid fa-cloud"></i> weather</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#search">Search</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ">Mobile App</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ">Subscribe</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- about -->
+      <section class="about container mt-5 " id="about">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="colContent-about">
+              <h2>Weather App</h2>
+              <p>Having an up to date information about the weather
+                 helps us to take well-read decisions. These weather apps
+                  constantly update the forecasts for a day or hour
+                   or sometimes for even a minute. These can be simply
+                    termed as the compact weather devices, as they do not
+                     only tell about the temperature of that specific region
+                      instead they can describe the accurate time of the
+                       sunrise and sunset, the time of the rainfall, humidity levels, etc.
+                </p>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="colContent">
+              <img src="images/raining-animate-1.svg" alt="raint img" class="w-100">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- search -->
+      <section class="search container mt-5" id="search">
+        <div class="searchInput w-25 mx-auto ">
+          <input type="text" placeholder="Search City ....." class="form-control p-2 xx">
+        </div>
+        <div class="container mt-4">
+          <div class="row g-3">
+            <div class="col-lg-4">
+              <div class="colContent-search ">
+                <div class="">
+                  <div class="wHeader p-2 px-4 text-white d-flex justify-content-between">
+                    <p class="m-0">friday</p>
+                    <p class="m-0">01 july</p>
+                  </div>
+                  <div class="wBody mainBgColor text-white px-4">
+                    <h5 class="py-4 city">cairo</h5>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h2 class="degree">30c</h2>
+                      <i class="fa-solid fa-sun "></i>
+                    </div>
+                    <p>sunny</p>
+                    <p class="sp"><span class="pe-3"><i class="fa-solid fa-umbrella pe-1"></i> 19 %</span><span class="pe-3"><i class="fa-solid fa-right-left pe-2"></i>20.2 km/h</span><span><i class="fa-solid fa-compass pe-1"></i> NE</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="colContent-search">
+                <div class="">
+                  <div class="wHeader p-2 px-4 text-white d-flex justify-content-between">
+                    <p class="m-0">friday</p>
+                    <p class="m-0">01 july</p>
+                  </div>
+                  <div class="wBody mainBgColor text-white px-4">
+                      <div class="text-center pt-5"><i class="fa-solid fa-sun fa-3x"></i></div>
+                      <h2 class="text-center pt-4">39c</h2>
+                      <p class="text-center">25c</p>
+                      <p class="text-center ">sunny</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="colContent-search">
+                <div class="">
+                  <div class="wHeader p-2 px-4 text-white d-flex justify-content-between">
+                    <p class="m-0">friday</p>
+                    <p class="m-0">01 july</p>
+                  </div>
+                  <div class="wBody mainBgColor text-white px-4">
+                      <div class="text-center pt-5"><i class="fa-solid fa-sun fa-3x"></i></div>
+                      <h2 class="text-center pt-4">39c</h2>
+                      <p class="text-center">25c</p>
+                      <p class="text-center ">sunny</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    
+    
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+body
+{
+    line-height: 1.9;
+    font-family: century-gothic, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: century-gothic;
+    src: url();
+}
+
+
+.mainBgColor
+{
+    background-color: #37AEC3;
+}
+
+.mainColor
+{
+    color:white;
+}
+
+.navbar a
+{
+    color: white;
+}
+
+.navbar li
+{
+    padding-right: 20px;
+}
+
+.colContent-about
+{
+    padding: 4rem 4rem 0 0;
+}
+
+.xx
+{
+    border-radius: 50px;
+}
+
+.colContent-search
+{
+    border-radius: 10px;
+}
+
+.wHeader
+{
+    background-color: #374850;
+    color: #3199AB;
+}
+
+.city
+{
+    font-size: 30px;
+}
+
+.degree
+{
+    font-size: 70px;
+}
+
+.wBody
+{
+    height: 300px;;
+}
+
+
+@media screen and (max-width : 767px) {
+    .about h2
+    {
+        text-align: center;
+        word-wrap: ;
+    }
+
+    .sp
+    {
+        font-size: 12px;
+    }
+}
